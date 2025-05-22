@@ -52,6 +52,8 @@ body {
 .container h2 {
   color: $primary-green-300;
   font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .dividor {
@@ -66,8 +68,14 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 280px;
+  bottom: 0;
+  transform: translateY(75%);
+  transition: box-shadow 0.3s ease;
   border-radius: 50%;
+  cursor: pointer;
+}
+.dice-container:hover {
+  box-shadow: 0 0 35px $primary-green-300;
 }
 
 .quote {
