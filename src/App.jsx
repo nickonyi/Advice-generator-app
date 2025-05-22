@@ -1,5 +1,5 @@
 import Advice from './Advice';
-import './styles/App.css';
+import './styles/App.scss';
 
 function App() {
   return (
