@@ -30,8 +30,6 @@ Users should be able to:
 
 ![](./public/screenshot.png)
 
--
-
 ### Links
 
 - Solution URL: [solution URL](https://github.com/nickonyi/Advice-generator-app.git)
