@@ -1,4 +1,5 @@
 import Dividor from './assets/images/pattern-divider-desktop.svg?react';
+import MobileDividor from './assets/images/pattern-divider-mobile.svg?react';
 import Dice from './assets/images/icon-dice.svg?react';
 import { useState } from 'react';
 
@@ -23,6 +24,7 @@ function Advice() {
       </p>
       <div className="dividor-container">
         <Dividor className="dividor" />
+        <MobileDividor className="m-dividor" />
       </div>
       <div className="dice-container" onClick={fetchAdvice}>
         <Dice className="dice" />

@@ -59,6 +59,9 @@ body {
 .dividor {
   color: $white;
 }
+.m-dividor {
+  display: none;
+}
 
 .dice-container {
   background-color: $primary-green-300;
@@ -92,17 +95,13 @@ body {
     width: 100%;
   }
   .container {
-    width: 380px;
+    width: 350px;
   }
-  .dividor-container {
-    display: flex;
-    justify-content: center; /* horizontally */
-    align-items: center; /* vertically */
-    width: 100%; /* or a specific width */
-    height: 100px;
-    .dividor {
-      width: 50px; /* or % of container */
-      height: auto;
-    }
+
+  .dividor {
+    display: none;
+  }
+  .m-dividor {
+    display: block;
   }
 }
