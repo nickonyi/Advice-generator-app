@@ -19,7 +19,7 @@ function Advice() {
     <div className="container">
       <h2>Advice # {adviceNo && adviceNo}</h2>
       <p className="quote">
-        {advice ? advice : 'Click the button to generate advices'}
+        {advice ? advice : 'Click the button below to generate advices'}
       </p>
       <Dividor className="dividor" />
       <div className="dice-container" onClick={fetchAdvice}>
