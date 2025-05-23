@@ -21,7 +21,9 @@ function Advice() {
       <p className="quote">
         {advice ? advice : 'Click the button below to generate advices'}
       </p>
-      <Dividor className="dividor" />
+      <div className="dividor-container">
+        <Dividor className="dividor" />
+      </div>
       <div className="dice-container" onClick={fetchAdvice}>
         <Dice className="dice" />
       </div>

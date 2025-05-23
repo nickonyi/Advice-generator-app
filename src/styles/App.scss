@@ -82,3 +82,27 @@ body {
   font-size: 28px;
   font-weight: 800;
 }
+
+@media (max-width: 450px) {
+  html {
+    width: 100%;
+  }
+  #root {
+    height: 100vh;
+    width: 100%;
+  }
+  .container {
+    width: 380px;
+  }
+  .dividor-container {
+    display: flex;
+    justify-content: center; /* horizontally */
+    align-items: center; /* vertically */
+    width: 100%; /* or a specific width */
+    height: 100px;
+    .dividor {
+      width: 50px; /* or % of container */
+      height: auto;
+    }
+  }
+}
